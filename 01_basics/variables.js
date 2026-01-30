@@ -48,7 +48,7 @@ let c = 10;
 let x = 10;
 let y = x;
 y = 20;
-console.log(y); // Stack Memory -> Copy by value
+console.log(x); // Stack Memory -> Copy by value
 
 // Non-Primitive
 let sc = {
@@ -56,7 +56,7 @@ let sc = {
 };
 let rs = sc;
 rs.score = 100;
-console.log(rs); // Heap Memory ->  Copy by Reference
+console.log(sc); // Heap Memory ->  Copy by Reference
 
 //FIXME: Pro Rules
 // Default
