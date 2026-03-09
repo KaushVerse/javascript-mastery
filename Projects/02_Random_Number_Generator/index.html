@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>🎲 Random Number Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <input class="display" id="display" value="0" disabled />
+
+      <button class="generate" onclick="generateNumber()">
+        <i class="fa-solid fa-dice"></i> Generate
+      </button>
+
+      <button class="reset" onclick="resetNumber()">
+        <i class="fa-solid fa-rotate-left"></i> Reset
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
